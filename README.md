@@ -70,14 +70,14 @@ class FormPageState extends State<FormPage> {
 
 #### All customizable parameters
 
-`String question`- Required parameter to specify the question to be asked.\n
-`bool canBeNull`- Required parameter to specify if entered text can be empty.\n
-`Function onSavedCallback`- Required callback parameter defining the behavious of form Field when it is saved using `key.currentState.save()`. \n
-`GlobalKey<FormState> formKey`- Required `GlobalKey<FormState>` key of the form that this form field is a part of.\n
-`double fieldTextFontSize`- Optional parameter to declare size of text inside the field.\n
-`String initialValue`- Optional parameter to declare a pre written value.\n
-`double verticalTextPadding`- Optional parameter to declare the vertical Content padding inside the field.\n
-`double horizontalTextPadding`- Optional parameter to declare the horizontal Content padding inside the field.\n
-`Icon icon`- Optional Icon to be displayed at the end of the field.\n
-`double borderRadius`- Optional parameter to declare the border radius of the field.\n
-`TextStyle labelTextStyle`- Optional parameter to declare the `TextStyle` of the label text.\n
+`String question`- Required parameter to specify the question to be asked.</br>
+`bool canBeNull`- Required parameter to specify if entered text can be empty.</br>
+`Function onSavedCallback`- Required callback parameter defining the behavious of form Field when it is saved using `key.currentState.save()`. </br>
+`GlobalKey<FormState> formKey`- Required `GlobalKey<FormState>` key of the form that this form field is a part of.</br>
+`double fieldTextFontSize`- Optional parameter to declare size of text inside the field.</br>
+`String initialValue`- Optional parameter to declare a pre written value.</br>
+`double verticalTextPadding`- Optional parameter to declare the vertical Content padding inside the field.</br>
+`double horizontalTextPadding`- Optional parameter to declare the horizontal Content padding inside the field.</br>
+`Icon icon`- Optional Icon to be displayed at the end of the field.</br>
+`double borderRadius`- Optional parameter to declare the border radius of the field.</br>
+`TextStyle labelTextStyle`- Optional parameter to declare the `TextStyle` of the label text.</br>
