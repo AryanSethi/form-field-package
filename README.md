@@ -19,12 +19,12 @@ CustomFormField().field(
               fieldTextFontSize: 15,
             ),
 ```
-<img src="./docs/ssmain.png"/></br></br></br>
+<img src="https://github.com/AryanSethi/form-field-package/blob/main/docs/ssmain.png"/></br></br></br>
 
 #### CanBeNull parameter
 You can change the `canBeNull` property to `false`, so that when `key.currentState.save()` is called, the field expresses an error.
 
-<img src="./docs/sserror.png"/></br></br></br>
+<img src="https://github.com/AryanSethi/form-field-package/blob/main/docs/sserror.png"/></br></br></br>
 
 
 #### onSavedCallback parameter

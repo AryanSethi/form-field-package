@@ -1,6 +1,6 @@
 name: custom_form_field
 description: A customizable and elegant form field  
-version: 0.0.1
+version: 0.0.3
 homepage: https://github.com/AryanSethi/form-field-package
 
 environment:
