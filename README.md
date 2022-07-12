@@ -1,7 +1,7 @@
 # form-field-package
 A package to build elegant looking form fields without any boilerplate code. The form fields are a part of a Form object and can be customized in every little way, from field tags to label styles. This reduces the effort to make multiple form fields while making lengthy Forms.
 
-####Usage
+#### Usage
 ```
 CustomFormField().field(
               question: "Name",
@@ -21,13 +21,13 @@ CustomFormField().field(
 ```
 <img src="./docs/ssmain.png"/></br></br></br>
 
-####CanBeNull parameter
+#### CanBeNull parameter
 You can change the `canBeNull` property to `false`, so that when `key.currentState.save()` is called, the field expresses an error.
 
 <img src="./docs/sserror.png"/></br></br></br>
 
 
-####onSavedCallback parameter
+#### onSavedCallback parameter
 This is a callback function that is provded along with the form field to define function's behaviour when the form's currentState is saved. For example, we can declare a number of string params and then assign them values to them using this parameter.
 ```
 class FormPageState extends State<FormPage> {
@@ -68,7 +68,7 @@ class FormPageState extends State<FormPage> {
 }
 ```
 
-####All customizable parameters
+#### All customizable parameters
 
 `String question`- Required parameter to specify the question to be asked.
 `bool canBeNull`- Required parameter to specify if entered text can be empty.
